@@ -1,0 +1,62 @@
+[2026-09-16T09:13:39.393Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.0f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 16940 --ipc-path /tmp/Unity-Upm-16940.sock -l 2 --log-file /Users/wes/UniCore/Logs/upm.log
+[2026-09-16T09:13:39.427Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-16940.sock).
+[2026-09-16T09:13:39.427Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-16940.
+[2026-09-16T09:13:43.392Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:13:43.590Z][INFO] project:list-packages --> 200 (198 ms)
+[2026-09-16T09:13:44.036Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-16T09:13:44.041Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-16T09:13:44.047Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:13:44.114Z][INFO] project:list-packages --> 200 (67 ms)
+[2026-09-16T09:13:44.114Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-09-16T09:13:44.125Z][INFO] project:update-dependencies --> 200 (11 ms)
+[2026-09-16T09:13:44.247Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-16T09:13:51.264Z][WARN] Requested version [3.0.2] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-09-16T09:13:51.265Z][WARN] Requested version [4.9.3] for package [com.unity.searcher] overridden by minimum version [4.9.5].
+[2026-09-16T09:13:51.265Z][INFO] project:resolve-packages --> 200 (7018 ms)
+[2026-09-16T09:14:12.739Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:12.781Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:13.092Z][INFO] project:list-packages --> 200 (356 ms)
+[2026-09-16T09:14:13.093Z][INFO] project:list-packages --> 200 (311 ms)
+[2026-09-16T09:14:13.337Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:13.422Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-16T09:14:13.431Z][INFO] config:project:get-registries --> 200 (9 ms)
+[2026-09-16T09:14:13.449Z][INFO] project:list-packages --> 200 (112 ms)
+[2026-09-16T09:14:27.795Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:27.854Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:28.010Z][INFO] project:list-packages --> 200 (156 ms)
+[2026-09-16T09:14:28.011Z][INFO] project:list-packages --> 200 (219 ms)
+[2026-09-16T09:14:30.518Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-16T09:14:31.858Z][WARN] Requested version [3.0.2] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-09-16T09:14:31.858Z][WARN] Requested version [4.9.3] for package [com.unity.searcher] overridden by minimum version [4.9.5].
+[2026-09-16T09:14:31.859Z][INFO] project:resolve-packages --> 200 (1341 ms)
+[2026-09-16T09:14:32.115Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-16T09:14:32.120Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-16T09:14:32.128Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:32.237Z][INFO] project:list-packages --> 200 (110 ms)
+[2026-09-16T09:14:34.571Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:34.677Z][INFO] project:list-packages --> 200 (107 ms)
+[2026-09-16T09:14:38.579Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:38.709Z][INFO] project:list-packages --> 200 (131 ms)
+[2026-09-16T09:14:38.875Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-16T09:14:38.952Z][INFO] project:list-packages --> 200 (77 ms)
+[2026-09-16T09:14:38.952Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-16T09:14:38.954Z][INFO] config:project:get-registries --> 200 (2 ms)
+[2026-09-16T09:14:45.752Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
